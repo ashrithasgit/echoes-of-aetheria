@@ -29,7 +29,7 @@ public class Ai_controller : MonoBehaviour
         anim = GetComponent<Animator>();
         playerScript = player.GetComponent<Player_health>();
 
-        // Set health and damage by level
+        // Setting health and damage by level
         if (enemyLevel == 1)
         {
             startEhealth = 100;
