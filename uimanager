@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class UI_Manager : MonoBehaviour
+{
+    // Load the main game scene
+    public void switchscene()
+    {
+        SceneManager.LoadScene(3); 
+    }
+
+    // Quit the game
+    public void quitgame()
+    {
+        Application.Quit();
+        Debug.Log("Quit Game"); 
+    }
+}
